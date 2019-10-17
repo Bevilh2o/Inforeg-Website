@@ -1,0 +1,279 @@
+/* general */
+button, .button{background: #eb1b13;border:none;box-shadow: none;border-radius: 3px}
+.button:hover{background: #333;}
+/*li{display: inline-block}*/
+a{color: #eb1b13}
+a:hover{color: #e44453}
+@media only screen and (max-width: 740px) {div.xsmall-12.small-3.medium-3.large-3.columns>img{max-width: 125px;}}
+
+
+.panel{background-color: white;}
+.panel, article img{border-radius:3px;border:none}
+/* top bar */
+.top-bar, .top-bar-section li a:not(.button), .top-bar.expanded .title-area {background: #eb1b13;  }
+.top-bar-section li:hover.has-dropdown a{background: #eb1b13}
+.top-bar-section li a:not(.button):hover {background: #fd707c;}
+
+/* slider */
+#slider ul li img{width:100%; height:auto}
+#slider .orbit-bullets 		{text-align: center;width:100%;z-index: 100;margin-bottom: 20px}
+#slider .orbit-bullets li	{float:none;display: inline-block;}
+
+/* content */
+#intro{margin-top: 20px}
+.centro{text-align: center;}
+.sottolineato{text-decoration: underline; color: red;}
+#benvenuti{color: #007bc0 }
+#rientranza{margin-right: 10px;}
+#rientranzaS{margin-left: 10px;}
+/* footer */
+#footer div {background: #eb1b13;}
+#footer p{color:#fff;padding:10px;}
+
+/*Esperto*/
+@media only screen and (max-width: 420px) {
+    .xsmall-push-0 {
+        position: relative;
+        left: 0;
+        right: auto; }
+
+    .xsmall-pull-0 {
+        position: relative;
+        right: 0;
+        left: auto; }
+
+    .xsmall-push-1 {
+        position: relative;
+        left: 8.33333%;
+        right: auto; }
+
+    .xsmall-pull-1 {
+        position: relative;
+        right: 8.33333%;
+        left: auto; }
+
+    .xsmall-push-2 {
+        position: relative;
+        left: 16.66667%;
+        right: auto; }
+
+    .xsmall-pull-2 {
+        position: relative;
+        right: 16.66667%;
+        left: auto; }
+
+    .xsmall-push-3 {
+        position: relative;
+        left: 25%;
+        right: auto; }
+
+    .xsmall-pull-3 {
+        position: relative;
+        right: 25%;
+        left: auto; }
+
+    .xsmall-push-4 {
+        position: relative;
+        left: 33.33333%;
+        right: auto; }
+
+    .xsmall-pull-4 {
+        position: relative;
+        right: 33.33333%;
+        left: auto; }
+
+    .xsmall-push-5 {
+        position: relative;
+        left: 41.66667%;
+        right: auto; }
+
+    .xsmall-pull-5 {
+        position: relative;
+        right: 41.66667%;
+        left: auto; }
+
+    .xsmall-push-6 {
+        position: relative;
+        left: 50%;
+        right: auto; }
+
+    .xsmall-pull-6 {
+        position: relative;
+        right: 50%;
+        left: auto; }
+
+    .xsmall-push-7 {
+        position: relative;
+        left: 58.33333%;
+        right: auto; }
+
+    .xsmall-pull-7 {
+        position: relative;
+        right: 58.33333%;
+        left: auto; }
+
+    .xsmall-push-8 {
+        position: relative;
+        left: 66.66667%;
+        right: auto; }
+
+    .xsmall-pull-8 {
+        position: relative;
+        right: 66.66667%;
+        left: auto; }
+
+    .xsmall-push-9 {
+        position: relative;
+        left: 75%;
+        right: auto; }
+
+    .xsmall-pull-9 {
+        position: relative;
+        right: 75%;
+        left: auto; }
+
+    .xsmall-push-10 {
+        position: relative;
+        left: 83.33333%;
+        right: auto; }
+
+    .xsmall-pull-10 {
+        position: relative;
+        right: 83.33333%;
+        left: auto; }
+
+    .xsmall-push-11 {
+        position: relative;
+        left: 91.66667%;
+        right: auto; }
+
+    .xsmall-pull-11 {
+        position: relative;
+        right: 91.66667%;
+        left: auto; }
+
+    .column,
+    .columns {
+        position: relative;
+        padding-left: 0.9375em;
+        padding-right: 0.9375em;
+        float: left; }
+
+    .xsmall-1 {
+        width: 8.33333%; }
+
+    .xsmall-2 {
+        width: 16.66667%; }
+
+    .xsmall-3 {
+        width: 25%; }
+
+    .xsmall-4 {
+        width: 33.33333%; }
+
+    .xsmall-5 {
+        width: 41.66667%; }
+
+    .xsmall-6 {
+        width: 50%; }
+
+    .xsmall-7 {
+        width: 58.33333%; }
+
+    .xsmall-8 {
+        width: 66.66667%; }
+
+    .xsmall-9 {
+        width: 75%; }
+
+    .xsmall-10 {
+        width: 83.33333%; }
+
+    .xsmall-11 {
+        width: 91.66667%; }
+
+    .xsmall-12 {
+        width: 100%; }
+
+    .xsmall-offset-0 {
+        margin-left: 0 !important; }
+
+    .xsmall-offset-1 {
+        margin-left: 8.33333% !important; }
+
+    .xsmall-offset-2 {
+        margin-left: 16.66667% !important; }
+
+    .xsmall-offset-3 {
+        margin-left: 25% !important; }
+
+    .xsmall-offset-4 {
+        margin-left: 33.33333% !important; }
+
+    .xsmall-offset-5 {
+        margin-left: 41.66667% !important; }
+
+    .xsmall-offset-6 {
+        margin-left: 50% !important; }
+
+    .xsmall-offset-7 {
+        margin-left: 58.33333% !important; }
+
+    .xsmall-offset-8 {
+        margin-left: 66.66667% !important; }
+
+    .xsmall-offset-9 {
+        margin-left: 75% !important; }
+
+    .xsmall-offset-10 {
+        margin-left: 83.33333% !important; }
+
+    .xsmall-offset-11 {
+        margin-left: 91.66667% !important; }
+
+    .xsmall-reset-order {
+        float: left;
+        left: auto;
+        margin-left: 0;
+        margin-right: 0;
+        right: auto; }
+
+    .column.xsmall-centered,
+    .columns.xsmall-centered {
+        margin-left: auto;
+        margin-right: auto;
+        float: none; }
+
+    .column.xsmall-uncentered,
+    .columns.xsmall-uncentered {
+        float: left;
+        margin-left: 0;
+        margin-right: 0; }
+
+    .column.xsmall-centered:last-child,
+    .columns.xsmall-centered:last-child {
+        float: none; }
+
+    .column.xsmall-uncentered:last-child,
+    .columns.xsmall-uncentered:last-child {
+        float: left; }
+
+    .column.xsmall-uncentered.opposite,
+    .columns.xsmall-uncentered.opposite {
+        float: right; }
+
+    .row.xsmall-collapse > .column,
+    .row.xsmall-collapse > .columns {
+        padding-left: 0;
+        padding-right: 0; }
+    .row.xsmall-collapse .row {
+        margin-left: 0;
+        margin-right: 0; }
+    .row.xsmall-uncollapse > .column,
+    .row.xsmall-uncollapse > .columns {
+        padding-left: 0.9375em;
+        padding-right: 0.9375em;
+        float: left;
+    }
+}
+

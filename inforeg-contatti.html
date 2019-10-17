@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+	<head>
+
+<!-- Meta Tags per SEO -->
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="description" content="Come raggiungere Inforeg Mappa via Cattori 1 Contatti Telefonici Sandy Savoldelli Silvano Savoldelli e-mail Inforeg Sagl">
+		<meta name="keywords" content="Inforeg Sagl mappa Locarno telefono Sandy Silvano Savoldelli ">
+		<meta name="author" content="Michel Bevilacqua">
+		<meta name="copyright" content="Inforeg Sagl">
+		<meta name="ROBOTS" content="INDEX,FOLLOW">
+		<title> Inforeg Sagl Dove Siamo e nostri Contatti </title>
+
+<!-- Fine Meta Tags -->
+
+		
+		<meta name="viewport" content="width=device-width">
+
+		<link rel="stylesheet" href="css/foundation.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<script src="js/vendor/custom.modernizr.js"></script>
+
+
+		<script
+		src="http://maps.googleapis.com/maps/api/js">
+		</script>
+
+		<script>
+			var myCenter=new google.maps.LatLng(46.169188, 8.799714);
+
+			function initialize()
+			{
+				var mapProp = {
+					center:myCenter,
+					zoom:14,
+					mapTypeId:google.maps.MapTypeId.ROADMAP
+				};
+
+				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+				var marker=new google.maps.Marker({
+					position:myCenter,
+				});
+
+				marker.setMap(map);
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+
+
+
+
+
+	</head>
+
+
+	<body>
+		<header id="header">
+
+
+
+		<div class="row">
+		<div class="large-12 columns">
+		<img src ="img/inforeg.png" alt=""/>
+		</div>
+		</div>
+
+
+
+		<nav class="top-bar">
+
+		<!-- logo -->
+		<ul class="title-area">
+		<li class="name"></li>
+		<!-- Icon menu mobile -->
+		<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		</ul>
+
+		<div class="top-bar-section">
+
+		<!-- Menu Sinistra -->
+		<ul class="left main-menu">
+
+		<li><a href="index.html">Home</a></li>
+		<li><a href="inforeg-prodotti.html">Prodotti</a></li>
+		
+		<li><a href="inforeg-contatti.html">Contatti</a></li>
+		<li><a href="inforeg-referenze.html">Referenze</a></li>
+
+
+
+
+		</ul>
+
+		<!-- Link Facebook ed Immagine -->
+
+		<ul class="right sub-menu">
+		<li><a id="rientranza" href="http://www.facebook.com/inforegticino/">Seguici su Facebook <img src="img/fb.png" alt=""></a></li>
+
+		</ul>
+
+		</div>
+
+		</nav>
+
+		</header>
+
+
+
+
+		<section id="intro">
+
+		<div class="row">
+		<div class="large-12 columns">
+		<h5>Per qualsiasi informazione, non esitate a contattarci. Riceviamo solo su appuntamento.</h5>
+
+		<hr />
+		</div>
+		</div>
+
+		<div class="row">
+		<div class="large-6 columns">
+		<div class="panel">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2763.0841641519633!2d8.799682399999993!3d46.16898030000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4785c9d28d1f224f%3A0x12d49a5cc29dfef!2sInforeg+Sagl!5e0!3m2!1sit!2sch!4v1442068721068" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		
+		<!--<div id="googleMap" style="width:50%px;height:380px;"></div>-->
+		</div>
+		</div>
+
+
+		<div class="large-6 columns">
+		<div class="panel">
+<div class="centro"><h6>Contattaci</h6></div>
+				<div id="form_contatto">
+
+
+<!--Inizio Form-->
+
+
+		<div class="large-12 large-centered small-12 columns contactform">
+		<div class="panel">
+		<form method="post" action="inviomail.php">
+		<fieldset>
+		
+		<!--<legend>Contattaci</legend>-->
+
+     <div class="row">
+		<div class="large-6 small-12 columns">
+			<label>Nome</label>
+			<input name="nome" type="text" placeholder="Inserire Nome">
+		</div>
+
+		<div class="large-6 small-12 columns">
+			<label>Cognome</label>
+			<input name="cognome" type="text" placeholder="Inserire Cognome">
+		</div>
+
+     </div>
+
+     <div class="row">
+		<div class="large-6 small-12 columns">
+		<label>Email</label>
+		<input name="indirizzo_email" type="text" placeholder="Email">
+		</div>
+
+	<div class="large-6 small-12 columns">
+       <label>Telefono</label>
+       <input name="numero_telefono" type="text" placeholder="Telefono">
+	</div>
+
+	</div>
+
+     <div class="row">
+      <div class="large-12 small-12 columns">
+       <label>Il tuo Messaggio</label>
+       <textarea class="message" name="testo_messaggio" placeholder="Lascia il tuo Messaggio"></textarea>
+      </div>
+     </div>
+
+     <div class="row">
+      <div class="large-12 small-12 columns">
+       <button class="submit" name="invio_mail" type="submit">Invia il Messaggio</button>
+      </div>
+     </div>
+
+    </fieldset>
+   </form>
+   </div>
+  </div>
+
+
+<!--Fine Form-->
+
+
+  </div>
+
+		</div>
+		</div>
+
+		</div>
+
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+		<footer id="footer">
+
+		<div class="large-12 columns centro">
+
+		<p>&copy; 2015 Inforeg - Via Cattori 1, 6600 Locarno -  TEL (+41) 091 752 19 20, FAX (+41) 091 290 19 20  </p>
+		<p>
+		<img style="border:0;width:88px;height:31px"
+        src="img/w3c-html-blue.png"
+        alt="HTML5 Valido!" />
+		<img style="border:0;width:88px;height:31px"
+        src="img/vcss-blue.png"
+        alt="CSS Valido!" />
+
+
+
+		</p>
+
+		</div>
+
+		</footer>
+		
+		<!-- Google Analytics -->
+					
+					<script>
+					(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+					})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+					ga('create', 'UA-66665744-1', 'auto');
+					ga('send', 'pageview');
+
+					</script>
+					
+		<script>
+		document.write('<script src=' +
+		('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+		</script>
+
+
+
+
+		<script src="js/foundation.min.js"></script>
+		<!--
+
+		<script src="js/foundation/foundation.js"></script>
+
+		<script src="js/foundation/foundation.interchange.js"></script>
+
+		<script src="js/foundation/foundation.abide.js"></script>
+
+		<script src="js/foundation/foundation.dropdown.js"></script>
+
+		<script src="js/foundation/foundation.placeholder.js"></script>
+
+		<script src="js/foundation/foundation.forms.js"></script>
+
+		<script src="js/foundation/foundation.alerts.js"></script>
+
+		<script src="js/foundation/foundation.magellan.js"></script>
+
+		<script src="js/foundation/foundation.reveal.js"></script>
+
+		<script src="js/foundation/foundation.tooltips.js"></script>
+
+		<script src="js/foundation/foundation.clearing.js"></script>
+
+		<script src="js/foundation/foundation.cookie.js"></script>
+
+		<script src="js/foundation/foundation.joyride.js"></script>
+
+		<script src="js/foundation/foundation.orbit.js"></script>
+
+		<script src="js/foundation/foundation.section.js"></script>
+
+		<script src="js/foundation/foundation.topbar.js"></script>
+
+		-->
+
+		<script>
+		$(document).foundation();
+		</script>
+		</body>
+		</html>
